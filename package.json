@@ -1,0 +1,16 @@
+{
+  "type": "module",
+  "dependencies": {
+    "onchange": "^7.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.2",
+    "@babel/preset-env": "^7.20.2",
+    "babel-jest": "^29.3.1",
+    "jest": "^29.3.1"
+  },
+  "scripts": {
+    "test": "jest --watch",
+    "start": "node LinkedList.js"
+  }
+}
